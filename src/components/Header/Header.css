@@ -1,0 +1,40 @@
+.title{
+    font-size: 6vw;
+    text-transform: uppercase;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-evenly; */
+    flex-direction: column;
+    justify-content: space-around;
+    height: 35vh;
+    width: 100%;
+}
+
+.inputs{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.search, .select{
+    width: 43%;
+}
+
+@media (max-width: 900px){
+    .header{
+        height: 25vh;
+    }
+    .title{
+        font-size: 10vw;
+    }
+
+    .inputs{
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+}
